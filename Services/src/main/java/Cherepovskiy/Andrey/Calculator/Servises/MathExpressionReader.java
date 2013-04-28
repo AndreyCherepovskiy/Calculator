@@ -3,6 +3,7 @@ package Cherepovskiy.Andrey.Calculator.Servises;
 public class MathExpressionReader {
 
     private final String expression;
+    private int previousReadPosition = 0;
     private int readPosition = 0;
 
     public MathExpressionReader(String expression) {
@@ -10,10 +11,6 @@ public class MathExpressionReader {
         if (expression == null) {
             throw new NullPointerException("Null expression passed.");
         }
-
-//        if (expression.trim().length() == 0) {
-//            throw new IllegalArgumentException("Empty expression parsed.");
-//        }
 
         this.expression = expression;
     }
@@ -26,19 +23,26 @@ public class MathExpressionReader {
         return readPosition;
     }
 
+    public int getPreviousReadPosition(){
+        return previousReadPosition;
+    }
+
     public char getCurrentChar() {
         return expression.charAt(readPosition);
     }
 
     public void incReadPosition() {
+        previousReadPosition = readPosition;
         readPosition++;
     }
 
     public void incReadPosition(int amount) {
+        previousReadPosition = readPosition;
         readPosition += amount;
     }
 
     public void setReadPosition(int readPosition) {
+        previousReadPosition = readPosition;
         this.readPosition = readPosition;
     }
 
@@ -50,6 +54,7 @@ public class MathExpressionReader {
         if(endOfExpression()){
             return;
         }
+        previousReadPosition = readPosition;
         while(expression.charAt(readPosition) == ' '){
             ++readPosition;
             if(endOfExpression()){

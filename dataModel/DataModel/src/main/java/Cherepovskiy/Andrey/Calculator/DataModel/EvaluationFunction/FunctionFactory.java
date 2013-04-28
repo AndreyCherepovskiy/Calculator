@@ -14,6 +14,9 @@ public class FunctionFactory {
         if ("sqr".equals(nameOfFunction)){
             return new SqrFunction(1, 1);
         }
+        if ("sum".equals(nameOfFunction)){
+            return new SumFunction(2, -1);
+        }
         return null;
     }
 }

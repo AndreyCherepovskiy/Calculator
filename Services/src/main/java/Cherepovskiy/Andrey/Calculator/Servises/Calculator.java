@@ -4,9 +4,6 @@ import Cherepovskiy.Andrey.Calculator.StateMachine.*;
 
 import java.math.BigDecimal;
 
-/**
- * This is sample implementation, do not use for production code!!!!!
- */
 public class Calculator extends AbstractStateMachine<
         BigDecimal,
         EvaluationContext,
@@ -36,7 +33,7 @@ public class Calculator extends AbstractStateMachine<
     }
 
     public BigDecimal evaluate(String mathExpression)throws EvaluationException {
-        return run(new EvaluationContext(mathExpression));
+        return run(new EvaluationContext(mathExpression)).setScale(5, BigDecimal.ROUND_CEILING);
     }
 
 

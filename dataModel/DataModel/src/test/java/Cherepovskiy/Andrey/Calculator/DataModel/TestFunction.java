@@ -57,4 +57,10 @@ public class TestFunction {
         assertEquals("Problem with the calculation srt function. Argument is negative number.",
                 new BigDecimal(4), functionFactory.createFunction("sqr").evaluate(new BigDecimal(-2)));
     }
+
+    @Test
+    public void testSumFunction() {
+        assertEquals("Problem with the calculation sum function.", new BigDecimal(0),
+                functionFactory.createFunction("sum").evaluate(new BigDecimal(-3), new BigDecimal(0), new BigDecimal(3)));
+    }
 }

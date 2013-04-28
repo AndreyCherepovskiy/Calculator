@@ -4,13 +4,13 @@
     <list default="true" id="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" name="Default" comment="" />
     <ignored path="Culculator.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Calculator.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1365855034151" ignored="false" />
+    <file path="/Calculator.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367168789315" ignored="false" />
     <file path="/pom.xml" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366962675262" ignored="false" />
     <file path="/ClosingBracketCommand.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1365883042179" ignored="false" />
-    <file path="/EvaluationContext.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366700122845" ignored="false" />
+    <file path="/EvaluationContext.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367170717574" ignored="false" />
     <file path="/EvaluationMatrix.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366051451805" ignored="false" />
     <file path="/EvaluationService.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366059540643" ignored="false" />
-    <file path="/fragment.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367062160370" ignored="false" />
+    <file path="/fragment.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367168825403" ignored="false" />
     <file path="/Main.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1365887168736" ignored="false" />
     <file path="/OpeningBracketParser.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366664172032" ignored="false" />
     <file path="/FinishEvaluationCommand.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1365869610534" ignored="false" />
@@ -24,7 +24,7 @@
     <file path="/ButtonActionListener.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366659715382" ignored="false" />
     <file path="/GUI.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366659375916" ignored="false" />
     <file path="/TestDataModel.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366047553389" ignored="false" />
-    <file path="/TestParser.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366710072960" ignored="false" />
+    <file path="/TestParser.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367143173156" ignored="false" />
     <file path="/BinaryOperatorParser.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366665842907" ignored="false" />
     <file path="/TestServices.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366712540488" ignored="false" />
     <file path="/BinaryOperatorFactory.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1365950648213" ignored="false" />
@@ -38,7 +38,7 @@
     <file path="/EvaluateFunctionFactory.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366238040659" ignored="false" />
     <file path="/FunctionParser.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366972990626" ignored="false" />
     <file path="/FunctionCommand.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366050716061" ignored="false" />
-    <file path="/MathExpressionReader.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367061947044" ignored="false" />
+    <file path="/MathExpressionReader.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367169962937" ignored="false" />
     <file path="/EvaluationState.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366051085641" ignored="false" />
     <file path="/SeparatorParser.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366664191000" ignored="false" />
     <file path="/SeparatorCommad.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366057269576" ignored="false" />
@@ -50,10 +50,20 @@
     <file path="/EndOfExpressionParser.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366665875043" ignored="false" />
     <file path="/WrapperFunction.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366672317109" ignored="false" />
     <file path="/a.dummy" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366670853046" ignored="false" />
-    <file path="/NameParser.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366968195818" ignored="false" />
-    <file path="/FunctionFactory.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1366972512320" ignored="false" />
+    <file path="/NameParser.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367169661661" ignored="false" />
+    <file path="/FunctionFactory.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367144560305" ignored="false" />
     <file path="/TestBinaryOperator.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367052373807" ignored="false" />
-    <file path="/TestFunction.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367052826992" ignored="false" />
+    <file path="/TestFunction.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367172405791" ignored="false" />
+    <file path="/EvaluationFunction.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367170630228" ignored="false" />
+    <file path="/NumberCommand.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367142684124" ignored="false" />
+    <file path="/SumFunction.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367144717089" ignored="false" />
+    <file path="/TestBinaryOperatorSum.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367171018073" ignored="false" />
+    <file path="/TestBinaryOperatorDivide.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367171157002" ignored="false" />
+    <file path="/TestBinaryOperatorMultiply.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367161419354" ignored="false" />
+    <file path="/TestBinaryOperatorPower.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367159752809" ignored="false" />
+    <file path="/TestBinaryOperators.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367161687841" ignored="false" />
+    <file path="/TestExceptions.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367163782617" ignored="false" />
+    <file path="/TestBracket.java" changelist="716b8a12-7cdd-4b4f-a7e6-208836f35b9d" time="1367171404215" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,55 +78,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationContext.java" line="90" class="Cherepovskiy.Andrey.Calculator.Servises.EvaluationContext" package="Cherepovskiy.Andrey.Calculator.Servises">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationContext.java" line="115" class="Cherepovskiy.Andrey.Calculator.Servises.EvaluationContext" package="Cherepovskiy.Andrey.Calculator.Servises">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/Cherepovskiy/Andrey/Calculator/GraphicalUI.java" line="70" class="Cherepovskiy.Andrey.Calculator.GraphicalUI" package="Cherepovskiy.Andrey.Calculator">
-        <option name="WATCH_ENTRY" value="true" />
-        <option name="WATCH_EXIT" value="true" />
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </method_breakpoints>
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -151,6 +114,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -160,21 +124,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FunctionParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/Parser/FunctionParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EvaluationContext.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+            <state line="67" column="15" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,70 +136,79 @@
       <file leaf-file-name="EvaluationException.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+            <state line="3" column="13" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvaluationMatrix.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationMatrix.java">
+      <file leaf-file-name="EvaluationFunction.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+            <state line="106" column="67" selection-start="3511" selection-end="3511" vertical-scroll-proportion="1.0380952">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvaluationService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationService.java">
+      <file leaf-file-name="Calculator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+            <state line="35" column="95" selection-start="1107" selection-end="1145" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvaluationState.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationState.java">
+      <file leaf-file-name="TestBinaryOperatorSum.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+            <state line="25" column="43" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathExpressionReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/MathExpressionReader.java">
+      <file leaf-file-name="TestBracket.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBracket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
+            <state line="42" column="54" selection-start="1877" selection-end="1895" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WrapperFunction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/WrapperFunction.java">
+      <file leaf-file-name="TestFunction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="-0.38518518">
+            <state line="45" column="20" selection-start="1890" selection-end="1896" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Function.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/Function.java">
+      <file leaf-file-name="TestBinaryOperatorMultiply.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorMultiply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="49" vertical-scroll-proportion="0.0">
+            <state line="19" column="19" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumFunction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/EvaluationFunction/MinimumFunction.java">
+      <file leaf-file-name="TestBinaryOperatorPower.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorPower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+            <state line="21" column="56" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBinaryOperators.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="57" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -262,22 +224,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/dataModel/function/AbstractFunction.java" />
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/dataModel/function/FunctionFactory.java" />
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/function/FunctionFactory.java" />
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/Function/FunctionFactory.java" />
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/EvaluationFunction/FunctionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cherepovskiy/Andrey/Calculator/Program.java" />
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/test/java/TestDataModel.java" />
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/test/java/Cherepovskiy/Andrey/Calculator/DataModel/TestDataModel.java" />
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/test/java/Cherepovskiy/Andrey/Calculator/DataModel/TestBinaryOperator.java" />
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/EvaluationFunction/MinimumFunction.java" />
-        <option value="$PROJECT_DIR$/../dataModel/DataModel/src/test/java/Cherepovskiy/Andrey/Calculator/DataModel/TestFunction.java" />
-        <option value="$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/MathExpressionReader.java" />
         <option value="$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/Parser/FunctionParser.java" />
+        <option value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestExceptions.java" />
+        <option value="$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cherepovskiy/Andrey/Calculator/GraphicalUI.java" />
+        <option value="$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/Parser/NameParser.java" />
+        <option value="$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/MathExpressionReader.java" />
         <option value="$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationContext.java" />
-        <option value="$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationException.java" />
-        <option value="$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationMatrix.java" />
+        <option value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorSum.java" />
+        <option value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorDivide.java" />
+        <option value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorMinus.java" />
+        <option value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorMultiply.java" />
+        <option value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorPower.java" />
+        <option value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperators.java" />
+        <option value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBracket.java" />
+        <option value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestFunction.java" />
+        <option value="$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationFunction.java" />
       </list>
     </option>
   </component>
@@ -295,6 +257,62 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="UserInterface" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="UserInterface" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="StateMachine" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Services" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Services" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -369,6 +387,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="StateMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Culculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StateMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Culculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -384,6 +426,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Servises" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,42 +482,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Servises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Culculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Servises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Parser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -474,10 +497,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/../dataModel/DataModel/src/test/java/Cherepovskiy/Andrey/Calculator/DataModel" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="OverrideImplement.combined" value="false" />
@@ -493,9 +517,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -506,10 +530,48 @@
       <recent name="Cherepovskiy.Andrey.Calculator.dataModel.Function" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Cherepovskiy.Andrey.Calculator.Servises" />
       <recent name="Cherepovskiy.Andrey.Calculator.DataModel" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Calculator">
+    <configuration default="false" name="Services [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="$PROJECT_DIR$/../Services" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -517,12 +579,6 @@
       <setting name="params" value="" />
       <setting name="workDir" value="C:\Users\ShteIn\IdeaProjects\Calculator\Culculator" />
       <setting name="debug" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -554,6 +610,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -579,19 +648,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -640,13 +696,25 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="UserInterface" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Calculator" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.Services [test]" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Maven.Services [test]" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -700,8 +768,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -714,10 +782,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24545455" sideWeight="0.21294719" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1310606" sideWeight="0.6746167" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14015152" sideWeight="0.6746167" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24545455" sideWeight="0.6746167" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24545455" sideWeight="0.6746167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="23" y="269" width="1320" height="190" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -789,118 +857,112 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cherepovskiy/Andrey/Calculator/Program.java">
+    <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/EvaluationBinaryOperator/PlusBinaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="98" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/Parser/NameParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="67" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/Parser/NumberParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="41" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/MathExpressionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="36" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/Function.java">
+    <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorDivide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="49" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/EvaluationBinaryOperator/BinaryOperatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="276" selection-end="276" vertical-scroll-proportion="0.19484241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/EvaluationFunction/MinimumFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/EvaluationFunction/SqrFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="163" selection-end="163" vertical-scroll-proportion="0.24355301">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/main/java/Cherepovskiy/Andrey/Calculator/DataModel/EvaluationFunction/FunctionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="491" selection-end="491" vertical-scroll-proportion="0.6819484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/test/java/Cherepovskiy/Andrey/Calculator/DataModel/TestFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="16" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.47628084">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataModel/DataModel/src/test/java/Cherepovskiy/Andrey/Calculator/DataModel/TestBinaryOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="63" selection-start="2894" selection-end="2900" vertical-scroll-proportion="0.9848197">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/Parser/FunctionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
+        <state line="19" column="55" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorMinus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="113" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorPower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="56" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="57" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBinaryOperatorSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="43" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestBracket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="54" selection-start="1877" selection-end="1895" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/test/java/Cherepovskiy/Andrey/Calculator/Servises/TestFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="20" selection-start="1890" selection-end="1896" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="95" selection-start="1107" selection-end="1145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+        <state line="67" column="15" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+        <state line="3" column="13" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationMatrix.java">
+    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/EvaluationState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/MathExpressionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Services/src/main/java/Cherepovskiy/Andrey/Calculator/Servises/WrapperFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="-0.38518518">
+        <state line="106" column="67" selection-start="3511" selection-end="3511" vertical-scroll-proportion="1.0380952">
           <folding />
         </state>
       </provider>

@@ -13,12 +13,10 @@ public class EvaluationContext implements StateMachineContext<
     private EvaluationState state;
     private final MathExpressionReader expressionReader;
 
-    private final Stack<BigDecimal> operandStack = new Stack<BigDecimal>();
-    private final Stack<BinaryOperator> operatorStack = new Stack<BinaryOperator>();
-    private final Stack<Integer> bracketStack = new Stack<Integer>();
-    private final Stack<WrapperFunction> wrapperFunctionStack = new Stack<WrapperFunction>();
+    private final Stack<EvaluationFunction> stackFunction = new Stack<EvaluationFunction>();
 
     public EvaluationContext(String expression) {
+        stackFunction.push(new EvaluationFunction(null,0));
         expressionReader = new MathExpressionReader(expression);
     }
 
@@ -37,136 +35,50 @@ public class EvaluationContext implements StateMachineContext<
     }
 
     public void pushOperand(BigDecimal operand) {
-        operandStack.push(operand);
+        EvaluationFunction function = stackFunction.peek();
+        function.pushOperand(operand);
     }
 
     public void pushBinaryOperator(BinaryOperator binaryOperator) {
-        BinaryOperator topOperator = null;
-        do {
-            if (peekBracketStack() < operatorStack.size()) {
-                topOperator = operatorStack.peek();
-            } else {
-                topOperator = null;
-            }
-
-            if (topOperator != null) {
-
-                if (binaryOperator.compareTo(topOperator) < 1) {
-                    executeBinaryOperator(topOperator);
-                    operatorStack.pop();
-                } else {
-                    break;
-                }
-            }
-
-        } while (topOperator != null);
-
-        operatorStack.push(binaryOperator);
+        EvaluationFunction function = stackFunction.peek();
+        function.pushBinaryOperator(binaryOperator);
     }
 
-    private void executeBinaryOperator(BinaryOperator topOperator) {
-        final BigDecimal rightOperand = operandStack.pop();
-        final BigDecimal leftOperand = operandStack.pop();
-
-        final BigDecimal result = topOperator.evaluate(
-                leftOperand, rightOperand);
-
-        pushOperand(result);
-    }
-
-    public void popBinaryOperators() throws EvaluationException {
-        while (!operatorStack.isEmpty()) {
-            executeBinaryOperator(operatorStack.pop());
-        }
-        if (!bracketStack.isEmpty()) {
-            throw new EvaluationException("missing closing parenthesis", expressionReader.getReadPosition());
-        }
-    }
 
     public void pushOpeningBracket() {
-        bracketStack.push(operatorStack.size());
+        EvaluationFunction function = stackFunction.peek();
+        function.pushOpeningBracket();
     }
 
     public void pushClosingBracket() throws EvaluationException {
-        if (bracketStack.isEmpty()) {
-            throw new EvaluationException("Missing opening bracket.", expressionReader.getReadPosition());
-        }
-        final int operatorStackSize = bracketStack.pop();
-        calculateOperator(operatorStackSize);
-
-        if (bracketStack.isEmpty()) {
-            if (!wrapperFunctionStack.isEmpty()) {
-                calculateFunction();
-            }
-        } else if (bracketStack.peek() != operatorStackSize) {
-            if (!wrapperFunctionStack.isEmpty()) {
-                WrapperFunction function = wrapperFunctionStack.peek();
-                if (function.getNumberOperator() == operatorStackSize)
-                    calculateFunction();
-            }
-        } else if (!wrapperFunctionStack.isEmpty()) {
-            WrapperFunction function = wrapperFunctionStack.peek();
-            if (function.getNumberBracket()  == bracketStack.size()) {
-                calculateFunction();
-            }
+        EvaluationFunction function = stackFunction.peek();
+        if(function.pushClosingBracket(expressionReader.getPreviousReadPosition())){
+            stackFunction.pop();
+            BigDecimal resultFunction = function.calculate();
+            stackFunction.peek().pushOperand(resultFunction);
         }
     }
 
     public void pushFunction(Function function) {
-        final int numberOperator = operatorStack.size();
-        final int numberBracket = bracketStack.size();
-        WrapperFunction wrapperFunction = new WrapperFunction(function, numberBracket, numberOperator);
-        wrapperFunctionStack.push(wrapperFunction);
+        stackFunction.push(new EvaluationFunction(function, expressionReader.getPreviousReadPosition()));
     }
 
-    private void calculateFunction() throws EvaluationException {
-        final WrapperFunction function = wrapperFunctionStack.pop();
 
-        if (!function.incrementNumberArguments()) {
-            throw new EvaluationException("Exceeded the number of arguments", expressionReader.getReadPosition());
-        }
-
-        if (function.getNumberArguments() < function.getMinimumNumberArguments()) {
-            throw new EvaluationException("Insufficient number of arguments", expressionReader.getReadPosition());
-        }
-
-        final int numberArguments = function.getNumberArguments();
-        BigDecimal[] massiveArgument = new BigDecimal[numberArguments];
-
-        for (int i = 0; i < numberArguments; i++) {
-            massiveArgument[i] = operandStack.pop();
-        }
-
-        operandStack.push(function.evaluate(massiveArgument));
-
-    }
-
-    public void pushSeparator() throws EvaluationException {
-        int operatorStackSize = 0;
-        if (!wrapperFunctionStack.isEmpty()) {
-            final WrapperFunction function = wrapperFunctionStack.peek();
-            if (!function.incrementNumberArguments()) {
-                throw new EvaluationException("Exceeded the number of arguments", expressionReader.getReadPosition());
-            }
-            operatorStackSize = function.getNumberOperator();
-        }
-        calculateOperator(operatorStackSize);
-    }
-
-    public void calculateOperator(int operatorStackSize) {
-        while (operatorStack.size() > operatorStackSize) {
-            executeBinaryOperator(operatorStack.pop());
-        }
+    public void pushSeparator()  {
+        EvaluationFunction function = stackFunction.peek();
+        function.pushSeparator();
     }
 
     @Override
     public BigDecimal getResult() {
-        return operandStack.pop().setScale(2, BigDecimal.ROUND_HALF_UP);
+        EvaluationFunction function = stackFunction.pop();
+        return function.getResult();
     }
 
-    private int peekBracketStack() {
-        if (bracketStack.size() == 0)
-            return 0;
-        return bracketStack.peek();
+
+    public void popBinaryOperators() throws EvaluationException{
+        EvaluationFunction function = stackFunction.peek();
+        function.popBinaryOperators(expressionReader.getPreviousReadPosition());
     }
+
 }

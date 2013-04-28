@@ -22,8 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="dataModel" />
         <module name="DataModel" />
+        <module name="dataModel" />
         <module name="Services" />
         <module name="services" />
         <module name="StateMachine" />

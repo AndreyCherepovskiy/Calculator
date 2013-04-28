@@ -4,7 +4,7 @@ import Cherepovskiy.Andrey.Calculator.Servises.Calculator;
 import Cherepovskiy.Andrey.Calculator.Servises.EvaluationException;
 
 import javax.swing.*;
-import java.awt.*;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -33,6 +33,7 @@ public class GraphicalUI {
 
         textFieldExpression = new JTextField();
         textFieldExpression.setBounds(90, 15, 280, 20);
+
         panel.add(textFieldExpression);
 
         labelResult = new JLabel("Result");
@@ -49,8 +50,9 @@ public class GraphicalUI {
         buttonRun.addActionListener(new ButtonActionListener());
         textFieldExpression.addKeyListener(new KeyActionListener());
 
-
         frame.getContentPane().add(panel);
+        textFieldExpression.requestFocusInWindow();
+
         frame.setVisible(true);
     }
 

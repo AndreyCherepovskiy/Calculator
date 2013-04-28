@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 
 public class NumberCommand implements EvaluationCommand {
 
-    private final BigDecimal number;
+    protected final BigDecimal number;
 
     public NumberCommand(BigDecimal number) {
         this.number = number;
